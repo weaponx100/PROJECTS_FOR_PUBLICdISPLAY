@@ -1,0 +1,421 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family:Sodo Sans;
+}
+#nav{
+  padding-top: 2.5%;
+  display: flex;
+  justify-content: space-between;
+  
+ 
+}
+#img1{
+  background-image: url('https://www.starbucks.com/weblx/images/icons/pwa-icon-192.png');
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 15%;
+  margin-top: -6%;
+  margin-bottom: 8%;
+  padding-right: 20%;
+ 
+}
+#leftnav{
+  display: flex;
+  
+  margin-left: 3%;
+}
+#rightnav{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10%;
+  
+}
+.leftitems{
+  padding: 5%;
+  padding-right: 10%;
+  white-space: nowrap;
+  font-weight: 550;
+}
+.rightitems{
+  padding: 5%;
+  padding-right: 1%;
+  padding-left: 15%;
+  
+  white-space: nowrap;
+  font-weight: 550;
+}
+#nb1{
+  margin-left: 25%;
+  margin-top: -250%;
+  border-radius: 15px;
+  border-color: black;
+  padding-left: 40%;
+  padding-right:40%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  border-width: 1px;
+  background-color: white;
+  font-weight: 600;
+}
+#nb2{
+  font-weight: 600;
+  margin-left: 60%;
+  margin-top: -250%;
+  border-radius: 20px;
+  border-color: black;
+
+  padding-left: 35%;
+  padding-right:35%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  border-width: 1px;
+  color: white;
+  background-color: black;
+
+}
+
+
+
+
+#nav2{
+  background-color:#1e3932 ;
+  color: white;
+  padding-top: 1.2%;
+  padding-bottom: 1.2%;
+  padding-left: 10%;
+  position: sticky;
+  top:0px;
+  box-shadow:0px 0.5px 5px #1e3932;
+  font-weight: 550;
+}
+
+#mainhome{
+  background-image: url('https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png');
+  background-size: 170%;
+  background-position:50%;
+  background-position-y:-0.2% ;
+  background-repeat: no-repeat;
+  background-color: rgba(166, 217, 231,0.5);
+}
+#insidemain{
+  padding-top: 9.5%;
+  padding-left: 3%;
+}
+
+#mha{
+  font-weight: bolder;
+  font-size:220%;
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+#mhb{
+  font-weight: 500;
+  font-size: 120%;
+}
+#mhc{
+  margin-top: 3%;
+  background-color: #008248;
+  display: inline-block;
+  padding: .5% 2% .5% 2%;
+  border-radius: 15px;
+  color: white;
+  font-weight: 550;
+
+}
+#mhd{
+  margin-top: 1.5%;
+  font-size: 120%;
+  padding-bottom: 18%;
+ 
+}
+#sechome1a{
+ text-align: center;
+  padding-top: 10%;
+  font-size: 180%;
+  font-weight: 550;
+  padding-bottom: 2%;
+}
+#sechome1b{
+  text-align: center;
+   
+ }
+ #sechome2{
+  padding-top: 5%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 5fr 5fr 5fr;
+  grid-row-gap: 30%;
+ padding-bottom: 15%;
+ }
+ #sechome2ta{
+  font-weight: 550;
+ }
+ #sechome2tb{
+  padding-left: 10%;
+  padding-right: 10%;
+ }
+ #trdhome{
+  text-align: center;
+  background-color: rgb(241, 247, 245);
+ }
+ #trdhomea{
+  font-size:180%;
+  font-weight: 550;
+  padding-bottom: 5%;
+  padding-top: 5%;
+ }
+ #trdhomeb{
+  display: flex;
+  justify-content: center;
+  padding: 0 30% 0 30%;
+  
+ }
+ .star{
+  font-size: 130%;
+  margin: 0 8% 0 8%;
+  border-style: solid;
+  border-width: 0px;
+  border-bottom-width: 3px;
+  border-color: rgb(241, 247, 245);
+  padding:2% 2% 4% 2% ;
+  
+ }
+ #starglow1{
+  border-color:#008248;
+ }
+ #fourhome{
+  background-color: rgb(212, 233, 226);
+  display: flex;
+
+  justify-content: center;
+ }
+#textdiv{
+  padding-top: 8%;
+  width: 30%;
+  text-align: left;
+  
+}
+#textdiv1{
+  
+    padding-bottom: 5%;
+  font-size: 150%;
+}
+#textdiv2{
+  padding-bottom: 20%;
+}
+#fifthhome{
+  padding-bottom: 15%;
+}
+#fifthhome1{
+  padding-top:8% ;
+  text-align: center;
+  margin:0 25% 0 25%;
+  padding-bottom:3%;
+  background-color: rgb(255, 255, 255);
+  
+}
+#head5{
+  font-weight: 550;
+  font-size: 180%;
+ padding-bottom:2%;
+}
+#fifthhome2{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 4%;
+  grid-row-gap: 10%;
+  margin: 0 6% 0 6%;
+}
+#sixthome{
+  background-color: rgb(242, 240, 235);
+}
+#sixthome1{
+  text-align: center;
+  margin:0 25% 0 25%;
+  padding-bottom: 5%;
+}
+#sithome11{
+  font-size: 180%;
+  font-weight: 550;
+  padding-top: 7%;
+  padding-bottom: 3%;
+}
+#sixthome2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: left;
+  padding-left: 3%;
+  padding-right: 10%;
+}
+.sixthome2ina{
+  display: flex;
+  justify-content: left;
+  
+}
+#sixthome2inh{
+  font-weight: 550;
+  font-size: 150%;
+}
+.sixthome2inap1{
+  font-size: 110%;
+  font-weight: 550;
+  padding-bottom: 5%;
+  padding-left: 4%;
+}
+.sixthome2inap2{
+  padding-left: 4%;
+}
+#sixthome3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: left;
+  padding-left: 3%;
+  padding-right: 10%;
+  padding-bottom: 3%;
+}
+
+#sevenhome{
+  background-image: url('https://www.starbucks.com/app-assets/844262945b2a8b8cfb293156e2583872.png');
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#subseven{
+  background-image: url('https://www.starbucks.com/app-assets/7997fb008f368630d3ca3c1194fd8404.svg');
+  margin: 00% 3% 0% 3%;
+  padding-bottom: 2%;
+  background-color:rgb(212, 233, 226) ;
+}
+#subsevenlast{
+  text-align: center;
+  background-color: rgb(212, 233, 226);
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#seven1{
+  padding-top: 4%;
+   font-size: 180%;
+  font-weight: 550;
+  padding-bottom: 2%;
+}
+#seven2{
+  font-size: 100%;
+}
+#seven3{
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 20%;
+}
+#seven4{
+  margin-top: 10%;
+  padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #008248;
+    border-radius: 40px;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: white;
+}
+.sevenp{
+  margin: 0 4% 0 4%;
+}
+
+
+#q{
+  font-size: 180%;
+  padding-top: 8%;
+  font-weight: 550;
+  padding-left: 20%;
+}
+#ans{
+  padding-top: 2%;
+  padding-left: 20%;
+  padding-right: 35%;
+  padding-bottom: 10%;
+}
+#ninehome{
+  background-color:rgb(249, 249, 249) ;
+  padding-bottom: 2%;
+}
+#ninehome1a{
+  font-size: 90%;
+  margin:1% 3% 1% 3%;
+}
+#ninehome1{
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+#ninehome2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 3% 0 3%;
+  
+  grid-column-gap:2% ;
+}
+#ninehome2h{
+  font-size: 120%;
+  font-weight: 550;
+  color: gray;
+  padding-bottom: 3%;
+}
+.ninehome2p{
+  font-size: 90%;
+  padding: 0% 0 2% 0;
+}
+#tenhome{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 0 3% 0 3%;
+  grid-row-gap: 5%;
+  color: gray;
+  margin-bottom: 3%;
+}
+#tenh{
+  color: black;
+  font-size: 110%;
+}
+.ten{
+  padding: 0 5% 0 5%;
+}
+#super{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 4%;
+  padding-bottom: 3%;
+}
+#social{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: left;
+  
+
+  gap:-20%;
+}
+.social{
+padding: 0;
+
+}
+#end{
+  display: grid;
+  padding-left: 3%;
+  padding-right: 10%;
+  grid-template-columns: 1fr 1fr 2.2fr 1.2fr 1fr 1fr ;
+  white-space: nowrap;
+  padding-bottom: 2%;
+}
+.finals{
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
+  padding-left: 10%;
+  margin-right: 0px;
+ 
+}
+#end2{
+  margin-left: 4%;
+  color: gray;
+  padding-bottom: 15%;
+}
